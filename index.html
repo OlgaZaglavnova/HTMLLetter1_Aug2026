@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Название письма</title>
+  <style>
+    @media only screen and (max-width: 600px) {
+      .stack td { display: block !important; width: 100% !important; }
+      table[width="600"] { width: 100% !important; }
+      .mobile-padding { padding-left: 15px !important; padding-right: 15px !important; }
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0; background-color:#f4f4f4;">
+
+  <!-- ====== НАЧАЛО ПИСЬМА ====== -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f4f4f4;">
+    <tr>
+      <td align="center" style="padding:20px 0;">
+        
+        <!-- Основной контейнер 600px -->
+        <table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%; background-color:#ffffff; font-family: Arial, sans-serif;">
+          <tr>
+            <td class="mobile-padding" style="padding:20px;">
+              
+              <!-- СЮДА ВАШ КОНТЕНТ -->
+              <h1 style="margin:0 0 15px; color:#333;">Заголовок</h1>
+              <p style="margin:0 0 20px; font-size:16px; line-height:1.5; color:#555;">Ваш текст здесь</p>
+              
+              <!-- Кнопка -->
+              <table cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
+                <tr>
+                  <td align="center" style="background-color:#ff6600; border-radius:5px;">
+                    <a href="#" style="display:inline-block; padding:12px 30px; color:#ffffff; text-decoration:none; font-weight:bold; font-size:18px;">
+                      Нажми меня
+                    </a>
+                  </td>
+                </tr>
+              </table>
+              <!-- Конец кнопки -->
+
+            </td>
+          </tr>
+        </table>
+        <!-- Конец контейнера -->
+
+      </td>
+    </tr>
+  </table>
+  <!-- ====== КОНЕЦ ПИСЬМА ====== -->
+
+</body>
+</html>
