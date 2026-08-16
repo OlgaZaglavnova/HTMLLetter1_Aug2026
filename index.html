@@ -1,54 +1,429 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Название письма</title>
-  <style>
-    @media only screen and (max-width: 600px) {
-      .stack td { display: block !important; width: 100% !important; }
-      table[width="600"] { width: 100% !important; }
-      .mobile-padding { padding-left: 15px !important; padding-right: 15px !important; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Olga Zaglavnova - Resume</title>
+<style>
+  @media only screen and (max-width: 600px) {
+    .stack td { display: block !important; width: 100% !important; }
+    table[width="600"] { width: 100% !important; }
+    .mobile-padding { padding-left: 15px !important; padding-right: 15px !important; }
+  }
+  .section-toggle {
+    cursor: pointer;
+    user-select: none;
+  }
+</style>
 </head>
-<body style="margin:0; padding:0; background-color:#f4f4f4;">
+<body style="margin:0; padding:0; background:#f0f2f5; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;">
 
-  <!-- ====== НАЧАЛО ПИСЬМА ====== -->
-  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f4f4f4;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f0f2f5;">
+<tr>
+<td align="center" style="padding:30px 0;">
+
+  <!-- ====== ОСНОВНОЙ КОНТЕЙНЕР ====== -->
+  <table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%; background:#ffffff; border-radius:20px; overflow:hidden; box-shadow:0 8px 40px rgba(0,0,0,0.08);">
+
+    <!-- ====== HEADER С ФОТО ====== -->
     <tr>
-      <td align="center" style="padding:20px 0;">
-        
-        <!-- Основной контейнер 600px -->
-        <table width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%; background-color:#ffffff; font-family: Arial, sans-serif;">
+      <td style="padding:40px 40px 30px; background:linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
           <tr>
-            <td class="mobile-padding" style="padding:20px;">
-              
-              <!-- СЮДА ВАШ КОНТЕНТ -->
-              <h1 style="margin:0 0 15px; color:#333;">Заголовок</h1>
-              <p style="margin:0 0 20px; font-size:16px; line-height:1.5; color:#555;">Ваш текст здесь</p>
-              
-              <!-- Кнопка -->
-              <table cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
+            <td width="80" valign="middle" style="padding-right:20px;">
+              <!-- Заглушка-аватар, замените на реальное фото -->
+              <table cellpadding="0" cellspacing="0" border="0" style="background:#4a4a6a; border-radius:50%; width:80px; height:80px;">
                 <tr>
-                  <td align="center" style="background-color:#ff6600; border-radius:5px;">
-                    <a href="#" style="display:inline-block; padding:12px 30px; color:#ffffff; text-decoration:none; font-weight:bold; font-size:18px;">
-                      Нажми меня
-                    </a>
-                  </td>
+                  <td align="center" style="font-size:36px; color:#fff;">👩‍💻</td>
                 </tr>
               </table>
-              <!-- Конец кнопки -->
-
+            </td>
+            <td valign="middle">
+              <h1 style="margin:0; font-size:28px; font-weight:700; color:#ffffff; letter-spacing:-0.5px;">
+                Olga Zaglavnova
+              </h1>
+              <p style="margin:4px 0 0; font-size:16px; color:rgba(255,255,255,0.7);">
+                Angular Frontend Developer
+              </p>
             </td>
           </tr>
         </table>
-        <!-- Конец контейнера -->
+      </td>
+    </tr>
+
+    <!-- ====== КОНТАКТЫ (в столбец) ====== -->
+    <tr>
+      <td style="padding:20px 40px; background:#f8f9fa; border-bottom:1px solid #eee;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td style="padding:4px 0; font-size:14px; color:#555;">
+              📍 Toronto, ON, Canada
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:4px 0; font-size:14px; color:#555;">
+              📧 olga.zaglavnova@gmail.com
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:4px 0; font-size:14px; color:#555;">
+              🔗 linkedin.com/in/olga-zaglavnova
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- ====== PROFESSIONAL SUMMARY ====== -->
+    <tr>
+      <td style="padding:30px 40px 10px;">
+        <h2 style="margin:0 0 12px; font-size:18px; font-weight:700; color:#1a1a2e; letter-spacing:1px; text-transform:uppercase;">
+          📋 Professional Summary
+        </h2>
+        <p style="margin:0 0 5px; font-size:15px; line-height:1.6; color:#444;">
+          Angular Frontend Developer with <strong>4.5 years</strong> of commercial experience building enterprise web applications using Angular, TypeScript, RxJS, Angular Material, and REST APIs. Experienced in reusable UI components, Reactive Forms, frontend authorization based on JWT, code reviews, and Agile development.
+        </p>
+        <p style="margin:10px 0 0; font-size:15px; line-height:1.6; color:#444;">
+          🚀 Currently expanding expertise in <strong>Angular 20</strong> (Signals, Standalone Components, Control Flow), AI-assisted frontend development and backend development using NestJS, PostgreSQL, MongoDB.
+        </p>
+      </td>
+    </tr>
+
+    <!-- ====== TECHNICAL SKILLS ====== -->
+    <tr>
+      <td style="padding:20px 40px 10px;">
+        <h2 style="margin:0 0 15px; font-size:18px; font-weight:700; color:#1a1a2e; letter-spacing:1px; text-transform:uppercase;">
+          🛠️ Technical Skills
+        </h2>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td width="33%" valign="top" style="padding:0 10px 10px 0;">
+              <p style="margin:0 0 4px; font-weight:600; font-size:14px; color:#1a1a2e;">Core</p>
+              <p style="margin:0; font-size:13px; color:#555; line-height:1.6;">
+                Angular, TypeScript, JavaScript, HTML5, CSS3, SCSS, RxJS
+              </p>
+            </td>
+            <td width="33%" valign="top" style="padding:0 10px 10px 0;">
+              <p style="margin:0 0 4px; font-weight:600; font-size:14px; color:#1a1a2e;">UI</p>
+              <p style="margin:0; font-size:13px; color:#555; line-height:1.6;">
+                Angular Material, PrimeNG
+              </p>
+            </td>
+            <td width="33%" valign="top" style="padding:0 0 10px;">
+              <p style="margin:0 0 4px; font-weight:600; font-size:14px; color:#1a1a2e;">State</p>
+              <p style="margin:0; font-size:13px; color:#555; line-height:1.6;">
+                NgRx, NGXS
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" style="padding:0 10px 0 0;">
+              <p style="margin:0 0 4px; font-weight:600; font-size:14px; color:#1a1a2e;">Tools</p>
+              <p style="margin:0; font-size:13px; color:#555; line-height:1.6;">
+                Jest, Jasmine+Karma, Git, Jira, Figma
+              </p>
+            </td>
+            <td valign="top" style="padding:0 10px 0 0;">
+              <p style="margin:0 0 4px; font-weight:600; font-size:14px; color:#1a1a2e;">Learning</p>
+              <p style="margin:0; font-size:13px; color:#555; line-height:1.6;">
+                Node.js, Express, NestJS, PostgreSQL, MongoDB, Docker, GitHub Copilot
+              </p>
+            </td>
+            <td valign="top">
+              <!-- пусто -->
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- ====== WORK EXPERIENCE ====== -->
+    <tr>
+      <td style="padding:20px 40px 10px;">
+        <h2 style="margin:0 0 20px; font-size:18px; font-weight:700; color:#1a1a2e; letter-spacing:1px; text-transform:uppercase;">
+          💼 Work Experience
+        </h2>
+
+        <!-- Опыт 1 -->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:20px; background:#f8f9fa; border-radius:12px;">
+          <tr>
+            <td style="padding:16px 20px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <p style="margin:0; font-weight:700; font-size:16px; color:#1a1a2e;">
+                      Promsvyazbank, PJSC
+                    </p>
+                    <p style="margin:2px 0 0; font-size:14px; color:#ff6b6b; font-weight:600;">
+                      Middle Angular Developer
+                    </p>
+                  </td>
+                  <td align="right" style="font-size:13px; color:#888;">
+                    Feb 2024 – Jul 2025
+                  </td>
+                </tr>
+              </table>
+              <ul style="margin:10px 0 0; padding-left:20px; font-size:14px; color:#444; line-height:1.6;">
+                <li>Developed Angular application modules for internal banking system (FSMS) with a team of 3 frontend developers.</li>
+                <li>Engineered reusable UI components, implemented JWT-based role/permission management, integrated RESTful APIs.</li>
+                <li>Introduced UI/UX improvements and contributed to an internal component library.</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Опыт 2 -->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:20px; background:#f8f9fa; border-radius:12px;">
+          <tr>
+            <td style="padding:16px 20px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <p style="margin:0; font-weight:700; font-size:16px; color:#1a1a2e;">
+                      Udobny Soft (Comfort Soft)
+                    </p>
+                    <p style="margin:2px 0 0; font-size:14px; color:#ff6b6b; font-weight:600;">
+                      Angular Developer
+                    </p>
+                  </td>
+                  <td align="right" style="font-size:13px; color:#888;">
+                    Dec 2021 – Feb 2024
+                  </td>
+                </tr>
+              </table>
+              <ul style="margin:10px 0 0; padding-left:20px; font-size:14px; color:#444; line-height:1.6;">
+                <li>Worked as Angular Frontend Developer in cross-functional team delivering enterprise web application for government organization.</li>
+                <li>Developed reusable Angular UI components, built Reactive Forms, integrated RESTful APIs.</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Опыт 3 -->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:20px; background:#f8f9fa; border-radius:12px;">
+          <tr>
+            <td style="padding:16px 20px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <p style="margin:0; font-weight:700; font-size:16px; color:#1a1a2e;">
+                      Open Hub
+                    </p>
+                    <p style="margin:2px 0 0; font-size:14px; color:#ff6b6b; font-weight:600;">
+                      Angular Developer
+                    </p>
+                  </td>
+                  <td align="right" style="font-size:13px; color:#888;">
+                    Remote
+                  </td>
+                </tr>
+              </table>
+              <ul style="margin:10px 0 0; padding-left:20px; font-size:14px; color:#444; line-height:1.6;">
+                <li>Served as the sole Frontend Developer in a small Agile team.</li>
+                <li>Worked on 2 Angular projects: NgRx with Jest, and NGXS with Jasmine/Karma.</li>
+                <li>Introduced Jest into the project and initiated unit test coverage.</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Опыт 4 -->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f8f9fa; border-radius:12px;">
+          <tr>
+            <td style="padding:16px 20px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <p style="margin:0; font-weight:700; font-size:16px; color:#1a1a2e;">
+                      Center for Efficiency Improvement
+                    </p>
+                    <p style="margin:2px 0 0; font-size:14px; color:#ff6b6b; font-weight:600;">
+                      Intern → Junior Angular Developer
+                    </p>
+                  </td>
+                  <td align="right" style="font-size:13px; color:#888;">
+                    Feb 2020 – Aug 2021
+                  </td>
+                </tr>
+              </table>
+              <ul style="margin:10px 0 0; padding-left:20px; font-size:14px; color:#444; line-height:1.6;">
+                <li>Promoted after 3 months for high performance.</li>
+                <li>Developed lightweight UI components to replace PrimeNG under senior guidance.</li>
+                <li>Implemented new application features under senior mentorship.</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- ====== CERTIFICATES ====== -->
+    <tr>
+      <td style="padding:20px 40px 10px;">
+        <h2 style="margin:0 0 15px; font-size:18px; font-weight:700; color:#1a1a2e; letter-spacing:1px; text-transform:uppercase;">
+          🎓 Certificates
+        </h2>
+
+        <!-- Сертификат 1 -->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f8f9fa; border-radius:12px; margin-bottom:15px;">
+          <tr>
+            <td style="padding:15px; text-align:center;">
+              <img src="https://media.licdn.com/dms/image/v2/D5622AQHRqJZml23NXQ/feedshare-image-high-res/B56aALj4W0HoAU-/0/1786900350610?e=1788393600&v=beta&t=Y9g2UwzT_vCpNpPfhIokiLEOASck0Ka7Q8FCatqaGJ0" 
+                   alt="Backend for frontend certificate" 
+                   width="560" 
+                   style="display:block; width:100%; max-width:560px; border-radius:8px; margin:0 auto;">
+              <p style="margin:12px 0 0; font-size:14px; font-weight:600; color:#1a1a2e;">
+                Backend with Node.js, NestJS, MongoDB, PostgreSQL, Docker for Frontend
+              </p>
+              <p style="margin:2px 0 0; font-size:12px; color:#888;">
+                Yandex Practicum, 2026
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Сертификат 2 -->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f8f9fa; border-radius:12px; margin-bottom:15px;">
+          <tr>
+            <td style="padding:15px; text-align:center;">
+              <img src="https://media.licdn.com/dms/image/v2/D5622AQHOQQF-2mU8Ag/feedshare-shrink_800/B56Z.z6c33JsAg-/0/1785429872398?e=1788393600&v=beta&t=ZOtt8e8rrRvUzRHyjCG1bxFMp1-JWX2HRe-LtdjHuaM" 
+                   alt="Advanced Angular Certificate" 
+                   width="560" 
+                   style="display:block; width:100%; max-width:560px; border-radius:8px; margin:0 auto;">
+              <p style="margin:12px 0 0; font-size:14px; font-weight:600; color:#1a1a2e;">
+                Advanced Angular Development
+              </p>
+              <p style="margin:2px 0 0; font-size:12px; color:#888;">
+                IBS Training Center, 2024
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Сертификат 3 -->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f8f9fa; border-radius:12px; margin-bottom:15px;">
+          <tr>
+            <td style="padding:15px; text-align:center;">
+              <img src="https://media.licdn.com/dms/image/v2/D5622AQF3Mc5mS83Eew/feedshare-shrink_800/B56Z.z6XB4IcAg-/0/1785429848417?e=1788393600&v=beta&t=MBkZCXcHZ3BEKalFGSaWpOidwEZEwqrS3DP4EGvXep0" 
+                   alt="Angular Complete Guide" 
+                   width="560" 
+                   style="display:block; width:100%; max-width:560px; border-radius:8px; margin:0 auto;">
+              <p style="margin:12px 0 0; font-size:14px; font-weight:600; color:#1a1a2e;">
+                Angular – The Complete Guide
+              </p>
+              <p style="margin:2px 0 0; font-size:12px; color:#888;">
+                Udemy, Maximilian Schwarzmuller, 2022
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Сертификат 4 -->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f8f9fa; border-radius:12px; margin-bottom:15px;">
+          <tr>
+            <td style="padding:15px; text-align:center;">
+              <img src="https://media.licdn.com/dms/image/v2/D5622AQHeJLTUy4LE4g/feedshare-shrink_800/B56aALtEwIJAAg-/0/1786902760703?e=1788393600&v=beta&t=ATDXeBKek0S1ujvdbU0l3Z2EnTpYCY3l-pZi--JcVfw" 
+                   alt="Angular Zero to Pro" 
+                   width="560" 
+                   style="display:block; width:100%; max-width:560px; border-radius:8px; margin:0 auto;">
+              <p style="margin:12px 0 0; font-size:14px; font-weight:600; color:#1a1a2e;">
+                Angular 9: From Zero to Professional
+              </p>
+              <p style="margin:2px 0 0; font-size:12px; color:#888;">
+                Vladilen Minin, 2020
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Сертификат 5 -->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f8f9fa; border-radius:12px;">
+          <tr>
+            <td style="padding:15px; text-align:center;">
+              <img src="https://media.licdn.com/dms/image/v2/D5622AQG30PM11cdIYA/feedshare-shrink_800/B56Z.z59fAJsAc-/0/1785429743804?e=1788393600&v=beta&t=bD2uPT4Yv4cjOLezzq6KJs5_VQH7wwst6ro6Jj13p8E" 
+                   alt="Frontend developer" 
+                   width="560" 
+                   style="display:block; width:100%; max-width:560px; border-radius:8px; margin:0 auto;">
+              <p style="margin:12px 0 0; font-size:14px; font-weight:600; color:#1a1a2e;">
+                Frontend developer (HTML, CSS/LESS/SCSS/SASS, JavaScript, Vue.js, React, Redux, Git)
+              </p>
+              <p style="margin:2px 0 0; font-size:12px; color:#888;">
+                GeekBrains, 2019-2020
+              </p>
+            </td>
+          </tr>
+        </table>
 
       </td>
     </tr>
+
+    <!-- ====== EDUCATION & ADDITIONAL INFO (в столбец) ====== -->
+    <tr>
+      <td style="padding:10px 40px 20px;">
+        
+        <!-- Education -->
+        <h2 style="margin:0 0 12px; font-size:18px; font-weight:700; color:#1a1a2e; letter-spacing:1px; text-transform:uppercase;">
+          🎓 Education
+        </h2>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f8f9fa; border-radius:12px; margin-bottom:20px;">
+          <tr>
+            <td style="padding:15px;">
+              <p style="margin:0; font-weight:600; font-size:14px; color:#1a1a2e;">
+                Engineer's Degree, Software Engineering
+              </p>
+              <p style="margin:4px 0 0; font-size:13px; color:#555;">
+                I.N. Ulyanov Chuvash State University, 2001
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Additional Info -->
+        <h2 style="margin:20px 0 12px; font-size:18px; font-weight:700; color:#1a1a2e; letter-spacing:1px; text-transform:uppercase;">
+          ℹ️ Additional Info
+        </h2>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f8f9fa; border-radius:12px;">
+          <tr>
+            <td style="padding:15px;">
+              <p style="margin:0; font-size:14px; color:#444; line-height:1.6;">
+                <strong>Languages:</strong> Russian (Native), English (B1 → B2)
+              </p>
+              <p style="margin:8px 0 0; font-size:14px; color:#444; line-height:1.6;">
+                <strong>Earlier Career:</strong><br>
+                17+ years in industrial software engineering and SCADA systems for electrical substations, including team leadership.
+              </p>
+            </td>
+          </tr>
+        </table>
+
+      </td>
+    </tr>
+
+    <!-- ====== FOOTER с кнопкой контакта ====== -->
+    <tr>
+      <td style="padding:25px 40px; background:#f8f9fa; border-top:1px solid #eee; text-align:center;">
+        <table cellpadding="0" cellspacing="0" border="0" style="margin:0 auto;">
+          <tr>
+            <td align="center" style="background:#1a1a2e; border-radius:50px;">
+              <a href="mailto:olga.zaglavnova@gmail.com?subject=Hiring%20Olga%20Zaglavnova&body=Hello%20Olga%2C%0A..." 
+                 style="display:inline-block; padding:14px 40px; color:#ffffff; text-decoration:none; font-weight:600; font-size:16px;">
+                📧 Hire Me
+              </a>
+            </td>
+          </tr>
+        </table>
+        <p style="margin:18px 0 0; font-size:12px; color:#aaa;">
+          <a href="#" style="color:#aaa; text-decoration:underline;">Unsubscribe</a>
+        </p>
+      </td>
+    </tr>
+
   </table>
-  <!-- ====== КОНЕЦ ПИСЬМА ====== -->
+  <!-- ====== КОНЕЦ КОНТЕЙНЕРА ====== -->
+
+</td>
+</tr>
+</table>
 
 </body>
 </html>
