@@ -41,9 +41,9 @@ HTML-письмо-резюме для рассылки потенциальны�
 Профессиональный (Для реальных рассылок) — Сервис Email-маркетинга
 Если вы планируете отправлять письма клиентам или подписчикам, вам нужен сервис рассылок. Самые популярные (все имеют бесплатные тарифы):
 
-| Сервис | Бесплатный лимит | Ссылка |
-|--------|------------------|--------|
-| **Unisender** | До 500 писем/месяц | [unisender.ru](https://www.unisender.ru/) |
-| **SendPulse** | До 500 писем/месяц | [sendpulse.ru](https://sendpulse.ru/) |
-| **Mailchimp** | До 500 подписчиков | [mailchimp.com](https://mailchimp.com/) |
-| **PutsMail** | Бесплатно для тестов | [putsmail.com](https://putsmail.com/) |
+|    Сервис     |   Бесплатный лимит   |                Ссылка                     |
+|---------------|----------------------|-------------------------------------------|
+| **Unisender** | До 500 писем/месяц   | [unisender.ru](https://www.unisender.ru/) |
+| **SendPulse** | До 500 писем/месяц   | [sendpulse.ru](https://sendpulse.ru/)     |
+| **Mailchimp** | До 500 подписчиков   | [mailchimp.com](https://mailchimp.com/)   |
+| **PutsMail**  | Бесплатно для тестов | [putsmail.com](https://putsmail.com/)     |
