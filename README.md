@@ -1,111 +1,111 @@
-EN
+# HTMLLetter1_Aug2026
+An HTML email resume template designed for sending to potential employers.
+---
 
-HTMLLetter1_Aug2026
-HTML resume email template for sending to potential employers.
+## 📧 Overview
+This repository contains an HTML email resume built with table-based layout for maximum email client compatibility. The template presents professional information in a clean, structured format suitable for job applications and recruiter outreach.
+---
 
-📧 Email Preview
-A modern, responsive HTML email resume that can be sent to recruiters and HR professionals. The email includes:
+## 🎯 Key Features
+Responsive Design: Adapts seamlessly from desktop to mobile devices
 
-Personal information (name, title, contacts)
+Email-Friendly: Table-based layout ensures compatibility across all major email clients
 
-Professional Summary
+Comprehensive Sections: Includes personal info, summary, skills, experience, certificates, education, and additional details
 
-Technical Skills (categorized)
+Easy Customization: Simple to update with your own content, colors, and images
 
-Work Experience (with dates and achievements)
+Professional Styling: Modern design with gradients, rounded corners, and clean typography
+---
+## 🛠️ Tech Stack
+HTML5 • CSS3 • Table-based Layout • Responsive Design
+---
 
-Certificates (with images)
-
-Education
-
-Additional Information
-
-Call-to-action button (Hire Me)
-
-📂 Repository Structure
-text
-HTMLLetter1_Aug2026/
-├── index.html              # Main email template (resume)
-├── _letter-template.html   # Empty template for new emails
-├── .prettierrc             # Code formatting settings
-└── README.md               # Documentation
-🛠️ How to Use
+## 🚀 How to Use
 Clone the repository:
 
 bash
 git clone https://github.com/olgaZaglavnova/HTMLLetter1_Aug2026.git
-Open the folder in VSCode
+Open in VSCode:
 
-To create your own email, replace the code in index.html with the content from _letter-template.html
+bash
+code HTMLLetter1_Aug2026
+Customize content:
 
-Customize the email:
-
-Replace text with your own information
+Replace text with your personal information
 
 Update certificate image URLs
 
-Change email address and LinkedIn link in the button
+Change email and LinkedIn links in the button
 
 Adjust colors and styles to match your brand
 
-Preview the result in your browser:
+Preview locally:
 
 Press Ctrl+S to save changes
 
 Click "Go Live" in the bottom-right corner of VSCode
 
-📤 How to Send Emails
-For professional email delivery to clients or subscribers, use email marketing services. All popular services offer free plans:
+View in your browser at localhost:5500
+---
+
+## 📬 Sending the Email
+To send this template as a real email, use any email marketing service:
 
 Service	Free Plan Limit	Link
 Unisender	Up to 500 emails/month	unisender.ru
 SendPulse	Up to 500 emails/month	sendpulse.ru
 Mailchimp	Up to 500 subscribers	mailchimp.com
-PutsMail	Free for testing    	putsmail.com
-Sending Instructions:
-Open index.html in VSCode
+PutsMail	Free for testing	putsmail.com
 
-Press Ctrl+A (select all) → Ctrl+C (copy)
+Quick Send Instructions:
+ - Open index.html in VSCode
+ - Select all (Ctrl+A) and copy (Ctrl+C)
+ - Paste into your chosen email service's HTML editor
+ - Send a test to yourself to verify everything works
+---
 
-Log in to your chosen email marketing service
-
-Create a new campaign and switch to HTML code mode
-
-Paste the code (Ctrl+V) and save
-
-Send a test email to yourself to verify everything works
-
-📱 Responsive Design
-The email displays correctly on:
-
-Desktop (600px width)
-
-Tablets
-
-Mobile devices (adaptive layout)
-
-🎨 Customization Tips
-Changing Button Color
+## 🎨 Customization Examples
+Changing Button Colors
 html
 <!-- Before -->
 style="background:#1a1a2e; border-radius:50px;"
 
-<!-- After (e.g., green) -->
+<!-- After (green) -->
 style="background:#00a859; border-radius:50px;"
+
 Updating Contact Information
 html
 📍 Toronto, ON, Canada → 📍 Your City, Country
 📧 olga.zaglavnova@gmail.com → your@email.com
 🔗 linkedin.com/in/olga-zaglavnova → linkedin.com/in/your-profile
-Adding Real Certificate Images
-Replace LinkedIn image URLs with your own:
+---
 
-html
-src="https://your-website.com/certificates/certificate-name.jpg"
-📝 Version History
-v1.0 (2026) — Initial release: Resume email with certificates and responsive layout
+## 📂 Repository Structure
+text
+HTMLLetter1_Aug2026/
+├── index.html              # Main email template
+├── _letter-template.html   # Empty template for new emails
+├── .prettierrc             # Code formatting settings
+└── README.md               # Documentation
+---
 
-👩‍💻 Author
+## 📱 Responsive Design
+The email displays correctly on:
+
+Desktop: Fixed width of 600px, centered
+
+Tablets: Adapts to screen size
+
+Mobile: Stacked layout with adjusted font sizes
+---
+
+## 📈 Development Journey
+2026 — Created this professional email resume template as part of my frontend development portfolio, focusing on email-compatible HTML/CSS techniques.
+---
+
+## 📫 Contact
 Olga Zaglavnova
 Angular Frontend Developer
 GitHub · LinkedIn
+---
