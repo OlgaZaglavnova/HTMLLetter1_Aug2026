@@ -1,8 +1,10 @@
 # HTMLLetter1_Aug2026
+
 An HTML email resume template designed for sending to potential employers.
 ---
 
 ## 📧 Overview
+
 This repository contains an HTML email resume built with table-based layout for maximum email client compatibility. The template presents professional information in a clean, structured format suitable for job applications and recruiter outreach.
 ---
 
@@ -52,11 +54,11 @@ View in your browser at localhost:5500
 ## 📬 Sending the Email
 To send this template as a real email, use any email marketing service:
 
-Service	Free Plan Limit	Link
-Unisender	Up to 500 emails/month	unisender.ru
-SendPulse	Up to 500 emails/month	sendpulse.ru
-Mailchimp	Up to 500 subscribers	mailchimp.com
-PutsMail	Free for testing	putsmail.com
+Service	    Free       Plan Limit	Link  
+Unisender	Up to 500  emails/month	unisender.ru  
+SendPulse	Up to 500  emails/month	sendpulse.ru  
+Mailchimp	Up to 500  subscribers	mailchimp.com  
+PutsMail	Free for testing	    putsmail.com  
 
 Quick Send Instructions:
  - Open index.html in VSCode
@@ -74,20 +76,20 @@ style="background:#1a1a2e; border-radius:50px;"
 <!-- After (green) -->
 style="background:#00a859; border-radius:50px;"
 
-Updating Contact Information
-html
-📍 Toronto, ON, Canada → 📍 Your City, Country
-📧 olga.zaglavnova@gmail.com → your@email.com
-🔗 linkedin.com/in/olga-zaglavnova → linkedin.com/in/your-profile
+Updating Contact Information  
+html  
+📍 Toronto, ON, Canada → 📍 Your City, Country  
+📧 olga.zaglavnova@gmail.com → your@email.com  
+🔗 linkedin.com/in/olga-zaglavnova → linkedin.com/in/your-profile  
 ---
 
 ## 📂 Repository Structure
-text
-HTMLLetter1_Aug2026/
-├── index.html              # Main email template
-├── _letter-template.html   # Empty template for new emails
-├── .prettierrc             # Code formatting settings
-└── README.md               # Documentation
+text  
+HTMLLetter1_Aug2026/  
+├── index.html              # Main email template  
+├── _letter-template.html   # Empty template for new emails  
+├── .prettierrc             # Code formatting settings  
+└── README.md               # Documentation  
 ---
 
 ## 📱 Responsive Design
@@ -105,7 +107,7 @@ Mobile: Stacked layout with adjusted font sizes
 ---
 
 ## 📫 Contact
-Olga Zaglavnova
-Angular Frontend Developer
-GitHub · LinkedIn
+Olga Zaglavnova  
+Angular Frontend Developer  
+GitHub · LinkedIn  
 ---
